@@ -1,7 +1,6 @@
 {
   "name": "sakuemon/lumen-tools",
   "description": "tools for lumen framework",
-  "minimum-stability": "stable",
   "license": "proprietary",
   "authors": [
     {
@@ -19,6 +18,11 @@
   "autoload": {
     "psr-4": {
       "Sakuemon\\LumenTools\\" : "src"
+    }
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "1.0-dev"
     }
   }
 }
