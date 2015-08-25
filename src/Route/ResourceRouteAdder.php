@@ -10,8 +10,14 @@ use Laravel\Lumen\Application;
  */
 class ResourceRouteAdder
 {
+    /**
+     * @var Application
+     */
     protected $app;
 
+    /**
+     * @var array
+     */
     protected $routeSettings;
 
     /**
@@ -39,6 +45,7 @@ class ResourceRouteAdder
     }
 
     /**
+     * add resource
      * @param $pathRoot
      * @param $controller
      * @param $routeNamePrefix
@@ -76,11 +83,6 @@ class ResourceRouteAdder
                 $this->$method($setting->pathRoot, $setting->controller, $setting->routeNamePrefix);
             }
         }
-    }
-
-    public function __invoke($x)
-    {
-        $this->register();
     }
 
     protected function index($pathRoot, $controller, $routeNamePrefix)
