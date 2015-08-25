@@ -1,0 +1,24 @@
+{
+  "name": "sakuemon/lumen-tools",
+  "description": "tools for lumen framework",
+  "minimum-stability": "dev",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Tsuyoshi MIYAMOTO",
+      "email": "sakuemon@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.5.9",
+    "laravel/lumen-framework": "5.1.*"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "4.8.*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Sakuemon\\LumenTools\\" : "src"
+    }
+  }
+}
