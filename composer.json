@@ -1,7 +1,7 @@
 {
   "name": "sakuemon/lumen-tools",
   "description": "tools for lumen framework",
-  "minimum-stability": "dev",
+  "minimum-stability": "stable",
   "license": "proprietary",
   "authors": [
     {

@@ -8,14 +8,14 @@ Simple Tools for [Lumen](http://lumen.laravel.com/)
 
 A Restful resource route adder.
 
-Simple use.
+### Simple usage
 
 ```php
 $routeAdder = new RestfulRouteAdder($app); // $app = lumen application
 $routeAdder->add('/your_url', '\ControllerName\With\Namespace', 'named_route', ['allow', 'methods']);
 ```
 
-With group route.
+### With group route
 
 ```php
 $routeAdder = new RestfulRouteAdder($app);
